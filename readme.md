@@ -23,7 +23,7 @@
 
 ## Key Features
 
-* Up to date: **Season 18**
+* Up to date: **Season 19**
 
 * **All guns supported** (K2, P90, ACE32, AKM, M416, MP5, Bizon, UMP45, Tommy, Uzi, Vector, SCAR-L, QBZ, BERYL, G36C, GROZA, AUG, DP28, M249,MG3)
 
