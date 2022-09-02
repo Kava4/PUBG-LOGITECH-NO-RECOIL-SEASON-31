@@ -43,19 +43,19 @@
 
 
 **1: Open "Profiles" from G-hub** 
-![screenshot](https://i.postimg.cc/BvpwYJ57/11.jpg)
+![screenshot](https://github.com/Kava4/Pubg-Logitech-No-Recoil/tree/master/Screenshots/1.jpg)
 
 
 
 **2: Find PUGB and go the bottom left and click on "Scripting"**
-![screenshot](https://i.postimg.cc/V6NZ22Df/a2.png)
+![screenshot](https://github.com/Kava4/Pubg-Logitech-No-Recoil/tree/master/Screenshots/2.png)
 
 
 **3: Create a new Lua Script and press "EDIT SCRIPT"**
-![screenshot](https://i.postimg.cc/HncZk5qF/4a.png)
+![screenshot](https://github.com/Kava4/Pubg-Logitech-No-Recoil/tree/master/Screenshots/3.png)
 
 **4: Import the script by using "Script->Import"**
-![screenshot](https://i.postimg.cc/Vvx7rv1v/5a.png)
+![screenshot](https://github.com/Kava4/Pubg-Logitech-No-Recoil/tree/master/Screenshots/4.png)
 
 **5: Change the weapons value to your prefered keys. (ie. change "local AKM = nil" to "local AKM = 3" )**
 
