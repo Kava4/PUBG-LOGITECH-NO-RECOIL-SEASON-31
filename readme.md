@@ -14,12 +14,7 @@
          alt="Gitter">
   </a>
   
-<p align="left">
-  <a href="#key-features">Key Features</a> 
-  <a href="#how-to-use">How To Use</a> 
-  <a href="#important">Important</a> 
-</p>
-
+<h5 align="center">
 
 ## Key Features
 
@@ -82,5 +77,5 @@ Change it if you gave a different name.
 Also change the path to where you saved the file.
 
 After that Save and Close. 
-
+</h5>
 
