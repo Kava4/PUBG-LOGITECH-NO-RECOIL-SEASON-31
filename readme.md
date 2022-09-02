@@ -14,7 +14,7 @@
          alt="Gitter">
   </a>
   
-<h5 align="center">
+
 
 ## Key Features
 
@@ -37,7 +37,7 @@
 ## How To Use
 
 
-**1: Open "Profiles" from G-hub** 
+**1: Open "Profiles" from G-hub**                                                                      
 ![screenshot](https://raw.githubusercontent.com/Kava4/Pubg-Logitech-No-Recoil/master/Screenshots/1.jpg)
 
 
@@ -77,5 +77,5 @@ Change it if you gave a different name.
 Also change the path to where you saved the file.
 
 After that Save and Close. 
-</h5>
+
 
