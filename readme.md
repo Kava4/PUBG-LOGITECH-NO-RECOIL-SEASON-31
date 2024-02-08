@@ -34,6 +34,8 @@
 
 * Works with every Logitech mouse.
 
+* **Fully documented script with explanations inside the script.**
+
 ## How To Use
 
 
@@ -54,6 +56,7 @@
 ![screenshot](https://raw.githubusercontent.com/Kava4/Pubg-Logitech-No-Recoil/master/Screenshots/4.png)
 
 **5: Change the weapons value to your prefered keys. (ie. change "local AKM = nil" to "local AKM = 3" )**
+![](https://i.ibb.co/55W0sPf/mouse-button-number-assignment.gif)
 
 **6: After you have done editing the script follow <a href="#important">important</a>
 **
@@ -77,5 +80,5 @@ Change it if you gave a different name.
 Also change the path to where you saved the file.
 
 After that Save and Close. 
-
+![](https://i.ibb.co/rwcvQgp/copy-paste-code-line.gif)
 
