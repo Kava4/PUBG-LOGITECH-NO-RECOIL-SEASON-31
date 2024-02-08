@@ -28,13 +28,15 @@
 
 * Fully **Customizable**
 
-* Works with any DPI
+* Works with any DPI (<a href="#Sensitivity">Sensitivity</a>)
 
 * Works with Red Dot,Holographic Sight and 2x,3x,4x Scopes
 
 * Works with every Logitech mouse.
 
 * **Fully documented script with explanations inside the script.**
+  
+* 
 
 ## How To Use
 
@@ -81,4 +83,7 @@ Also change the path to where you saved the file.
 
 After that Save and Close. 
 ![](https://i.ibb.co/rwcvQgp/copy-paste-code-line.gif)
+
+## Sensitivity
+![](https://i.ibb.co/ZxrRw8p/2024-02-08-185610.png)
 
