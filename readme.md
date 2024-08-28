@@ -9,8 +9,8 @@
 
 <h4 align="center">**Undetected** most secure and EASIEST to use macro.</h4>
 <p align="center">
-  <a href="https://img.shields.io/badge/VERSION-1.8-brightgreen">
-    <img src="https://img.shields.io/badge/VERSION-1.8-brightgreen.svg"
+  <a href="https://img.shields.io/badge/VERSION-3.1-brightgreen">
+    <img src="https://img.shields.io/badge/VERSION-3.1-brightgreen.svg"
          alt="Gitter">
   </a>
   
@@ -18,7 +18,7 @@
 
 ## Key Features
 
-* Up to date: **Season 27**
+* Up to date: **Season 31**
 
 * **All guns supported** (K2, P90, ACE32, AKM, M416, MP5, Bizon, UMP45, Tommy, Uzi, Vector, SCAR-L, QBZ, BERYL, G36C, GROZA, AUG, DP28, M249,MG3)
 
