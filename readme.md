@@ -1,4 +1,4 @@
-````markdown
+
 # 🎯 PUBG Logitech No Recoil Script – Season 31
 
 ![Logitech G Hub](img/logitech_logo.png)
@@ -134,5 +134,5 @@ local mult = 1.0 -- Modify this based on your in-game sensitivity
 ---
 
 💡 **Enjoy smooth aim and no recoil in PUBG!** 🎯🔥
-````
+
 
