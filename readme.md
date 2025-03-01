@@ -1,90 +1,138 @@
+````markdown
+# 🎯 PUBG Logitech No Recoil Script – Season 31
 
-<h1 align="center">
-  <br>
-  <a href="https://www.mpgh.net/"><img src="https://i.imgur.com/aQQ9sP7.png" alt="PUBG No Recoil Macro" width="200"></a>
-  <br>
-  PUBG No Recoil Macro
-  <br>
-</h1>
+![Logitech G Hub](img/logitech_logo.png)
 
-<h4 align="center">**Undetected** most secure and EASIEST to use macro.</h4>
-<p align="center">
-  <a href="https://img.shields.io/badge/VERSION-3.1-brightgreen">
-    <img src="https://img.shields.io/badge/VERSION-3.1-brightgreen.svg"
-         alt="Gitter">
-  </a>
-  
-[![PayPal](https://img.shields.io/badge/PayPal-003087?logo=paypal&logoColor=fff)](https://www.paypal.com/donate/?hosted_button_id=ZJNBNTJXR5N8A)
+> **Take control of your aim!** This Logitech G Hub script **eliminates recoil** in PUBG, giving you a smoother shooting experience while staying fully customizable. 🎯🔥
 
+---
 
-## Key Features
+## 📌 Table of Contents
 
-* Up to date: **Season 31**
+- [✨ Features](#-features)
+- [⚙️ Requirements](#-requirements)
+- [🚀 Installation & Setup](#-installation--setup)
+- [🎨 Customization Guide](#-customization-guide)
+- [🛠️ Troubleshooting](#-troubleshooting)
+- [📜 License](#-license)
 
-* **All guns supported** (K2, P90, ACE32, AKM, M416, MP5, Bizon, UMP45, Tommy, Uzi, Vector, SCAR-L, QBZ, BERYL, G36C, GROZA, AUG, DP28, M249,MG3)
+---
 
-* **Works with All Windows Versions**
+## ✨ Features
 
-* Undetected, Secure and super easy to use
+✅ **Works with all Logitech G-Series Mice**  
+✅ **Supports all weapons in PUBG** (AKM, M416, SCAR-L, etc.)  
+✅ **Toggleable recoil compensation**  
+✅ **Customizable sensitivity and key bindings**  
+✅ **Optimized for Season 31**  
+✅ **Safe & undetectable (uses Logitech G Hub scripting)**  
 
-* Fully **Customizable**
+![Before & After](img/before_after.png)
 
-* Works with any DPI (<a href="#Sensitivity">Sensitivity</a>)
+*Left: Without Script ❌ | Right: With Script ✅*
 
-* Works with Red Dot,Holographic Sight and 2x,3x,4x Scopes
+---
 
-* Works with every Logitech mouse.
+## ⚙️ Requirements
 
-* **Fully documented script with explanations inside the script.**
-  
-* 
+- **Logitech G-Series Mouse** 🖱️
+- **Logitech G Hub Installed** 🔧 ([Download Here](https://www.logitechg.com/en-us/innovation/g-hub.html))
+- **PUBG (PC Version)** 🎮
+- **Windows OS** 💻
 
-## How To Use
+---
 
+## 🚀 Installation & Setup
 
-**1: Open "Profiles" from G-hub**                                                                      
-![screenshot](https://raw.githubusercontent.com/Kava4/Pubg-Logitech-No-Recoil/master/Screenshots/1.jpg)
+### 1️⃣ Install Logitech G Hub
+- Download and install **[Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html)**.
+- Open G Hub and ensure your **mouse is detected**.
 
+### 2️⃣ Download & Load the Script
+- Get the **[PUBG-Logitech-No-Recoil.lua](https://github.com/Kava4/PUBG-LOGITECH-NO-RECOIL-SEASON-31)** script.
+- Open **Logitech G Hub** → Click on your **PUBG profile**.
+- Go to **Scripting** (bottom left) → Click **Create New Lua Script**.
+- **Paste the script** into the editor and **Save**.
 
+### 3️⃣ Assign the Script to a Button
+- In **G Hub**, go to **Assignments → Macros**.
+- Create a new macro and **assign it to a mouse button**.
+- Make sure the script is linked to **PUBG’s profile**.
 
+### 4️⃣ Test the Setup
+- Launch **PUBG** and **press the assigned button** to enable the script.
+- Fire a weapon to see the **no-recoil effect**!
 
-**2: Find PUGB and go the bottom left and click on "Scripting"**
-![screenshot](https://raw.githubusercontent.com/Kava4/Pubg-Logitech-No-Recoil/master/Screenshots/2a.png)
+---
 
+## 🎨 Customization Guide
 
-**3: Create a new Lua Script and press "EDIT SCRIPT"**
-![screenshot](https://raw.githubusercontent.com/Kava4/Pubg-Logitech-No-Recoil/master/Screenshots/3.png)
+### 🔧 Adjusting Sensitivity
 
-**4: Import the script by using "Script->Import"**
-![screenshot](https://raw.githubusercontent.com/Kava4/Pubg-Logitech-No-Recoil/master/Screenshots/4.png)
+| Setting  | Description | Default Value |
+|----------|-------------|---------------|
+| `mult`   | Recoil reduction strength | `1.0` |
+| `Sleep()` | Adjusts recoil timing per shot | `15-24ms` |
 
-**5: Change the weapons value to your prefered keys. (ie. change "local AKM = nil" to "local AKM = 3" )**
-![](https://i.ibb.co/55W0sPf/mouse-button-number-assignment.gif)
+Modify in the script:
+```lua
+local mult = 1.0  -- Adjust for different sensitivities
+Sleep(18)  -- Modify delay for specific guns
+```
 
-**6: After you have done editing the script follow <a href="#important">important</a>
-**
+### 🖱️ Changing Key Bindings
+Modify these values to set custom activation buttons:
+```lua
+local AKM = 4   -- Change to preferred button
+local M416 = 5  -- Assign another weapon key
+```
+Find button IDs in **Logitech G Hub → Key Assignments**.
 
-## Important
+### 🎛️ Adjust Recoil Dynamically
+Increase or decrease recoil control **while playing** using mouse buttons:
+```lua
+if (event == "G_PRESSED" and arg == 8) then
+    mult = mult + 0.05  -- Increase recoil comp
+end
+if (event == "G_PRESSED" and arg == 9) then
+    mult = mult - 0.05  -- Decrease recoil comp
+end
+```
+🔹 Press **G8** to increase recoil control  
+🔹 Press **G9** to decrease recoil control  
+🔹 No need to restart the script! 🎯
 
-For security reasons you need to have exported the script from G-Hub.
+---
 
-Copy and Paste the script to C:/ or D:/ etc. 
+## 🛠️ Troubleshooting
 
-Give the file a different name like "world"
+### ❌ Script Not Working?
+🔹 Ensure **Logitech G Hub** is installed and running.  
+🔹 Check if **Lua scripting is enabled** in G Hub.  
+🔹 Assign the script to **PUBG’s profile**.  
+🔹 Try **running G Hub as administrator**.  
 
-Go to G-Hub or LGS and add the code line below
+### 🎯 Recoil Feels Off?
+🔹 Adjust the `mult` value in the script:
+```lua
+local mult = 1.0 -- Modify this based on your in-game sensitivity
+```
+🔹 Match **PUBG’s in-game sensitivity** settings.  
+🔹 Test different **mouse DPI settings**.  
 
-data = dofile[[C:\world.lua]] 
+### 🔄 Logitech G Hub Not Detecting the Script?
+🔹 **Restart G Hub** and re-enable scripting.  
+🔹 **Reinstall G Hub** if issues persist.  
+🔹 **Delete & re-import** the script.  
 
-In the code line you will see that I change the name to world 
+---
 
-Change it if you gave a different name. 
+## 📜 License
 
-Also change the path to where you saved the file.
+🆓 **Open-source & free to use** – Provided as-is without warranties. Use responsibly!
 
-After that Save and Close. 
-![](https://i.ibb.co/rwcvQgp/copy-paste-code-line.gif)
+---
 
-## Sensitivity
-![](https://i.ibb.co/ZxrRw8p/2024-02-08-185610.png)
+💡 **Enjoy smooth aim and no recoil in PUBG!** 🎯🔥
+````
 
