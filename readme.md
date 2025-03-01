@@ -1,7 +1,7 @@
 
-# 🎯 PUBG Logitech No Recoil Script – Season 31
+# 🎯 PUBG Logitech No Recoil Script
 
-![Logitech G Hub](Screenshots/logitech_logo.png)
+![Logitech G Hub](img/logitech_logo.png)
 
 > **Take control of your aim!** This Logitech G Hub script **eliminates recoil** in PUBG, giving you a smoother shooting experience while staying fully customizable. 🎯🔥
 
@@ -27,7 +27,10 @@
 ✅ **Optimized for Season 31**  
 ✅ **Safe & undetectable (uses Logitech G Hub scripting)**  
 
-![Before & After](img/before_after.png)
+<div align="center">
+  <img src="img/before.png" width="45%"> 
+  <img src="img/after.png" width="45%">
+</div>
 
 *Left: Without Script ❌ | Right: With Script ✅*
 
